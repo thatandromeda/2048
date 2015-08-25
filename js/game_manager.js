@@ -72,7 +72,7 @@ GameManager.prototype.addRandomTile = function () {
     if (randomizer < 0.9 ) {
       var value = 2;
     } else if (randomizer < 0.994) {
-      var value = 4;
+      var value = 6;
     } else {
       var value = 1024;
     }
